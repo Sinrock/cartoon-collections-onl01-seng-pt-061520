@@ -1,10 +1,6 @@
-def roll_call_dwarves(dwarves)
-hash = hash.new
-%w(Doc Dopey Bashful Grumpy).each_with_index { |item, index|
-  hash[item] = index
-}
-hash
-end
+var roll_call_dwarves = [“Dopey”, “Grumpy”, “Bashful”];
+
+for (var i = 0; i < roll_call_dwarves.length; i++) { console.log(roll_call_dwarves[i]); }
 
 def summon_captain_planet# code an argument here
   # Your code here
