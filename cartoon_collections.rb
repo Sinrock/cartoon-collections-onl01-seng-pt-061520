@@ -1,6 +1,6 @@
-var roll_call_dwarves = [“Dopey”, “Grumpy”, “Bashful”];
+def roll_call_dwarves(dwarves)
 
-for (var i = 0; i < roll_call_dwarves.length; i++) { console.log(roll_call_dwarves[i]); }
+end
 
 def summon_captain_planet# code an argument here
   # Your code here
