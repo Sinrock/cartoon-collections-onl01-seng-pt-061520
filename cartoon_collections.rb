@@ -22,8 +22,13 @@ end
 
 summon_captain_planet(planeteer_calls)
 
-def long_planeteer_calls# code an argument here
-  # Your code here
+short_words = ["puff", "go", "two"]
+assorted_words = ["two","go","industrious","bop"]
+def long_planeteer_calls(short_words)
+  if short_words.each.length >= 4
+    return false
+  else true
+  end
 end
 
 def find_the_cheese# code an argument here
